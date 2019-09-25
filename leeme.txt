@@ -10,9 +10,27 @@ seleccionamos Git Bash Here
 // una vez cargada la consola
 // definir mi repositorio local
 git init
+
 // enlazar con el repositorio remoto
 git remote add origin https://github.com/oscarvilches/Clase20190925.git
 
+// agregar fles que deseamos subir
 
+git add leeme.txt // un unico archivo
+git add . // todos los archivos ( o git add * )
 
+git commit -m "mensaje version ###"
 
+git push -u origin master
+
+//crear ramas
+git branch rama_1
+
+//cambiar ramas
+git checkout rama_1
+
+//crea y cambia
+git checkout -b rama_1
+
+// borrar rama_1
+git checkout -d rama_1
