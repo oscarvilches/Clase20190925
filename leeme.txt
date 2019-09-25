@@ -14,7 +14,7 @@ git init
 // enlazar con el repositorio remoto
 git remote add origin https://github.com/oscarvilches/Clase20190925.git
 
-// agregar fles que deseamos subir
+// agregar files que deseamos subir
 
 git add leeme.txt // un unico archivo
 git add . // todos los archivos ( o git add * )
